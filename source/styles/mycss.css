@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa&display=swap');
+body{
+    font-family: Comfortaa, Calibri;
+    background: linear-gradient(90deg, #00ffe581 0%, #ffffff 100% );
+}
+.nav-link{
+    color: rgb(117, 117, 117)
+}
+.navbar-nav .nav-link.active{
+    color: rgb(20, 151, 107);
+}
+.navbar-brand img{
+    width: 40px;
+}
+.navbar-toggler{
+    color: aquamarine;
+    border-color: aquamarine;
+    border-width: 2px;
+}
+.sidebar{
+    color:rgb(0, 134, 116);
+    background: linear-gradient(90deg, #d4faf6 0%, #ffffff 100% );
+    border-radius: 20px;
+    padding-top: 14px;
+}
+.card{
+    background: linear-gradient(270deg, #d4faf6 0%, #ffffff 100% );
+ 
+}
+.card a{
+    text-decoration: none;
+    color:rgb(201, 255, 248) ;
+}
+.slide-text{
+    margin:auto auto;
+    color: rgb(0, 134, 116);
+}
+.footer-text{
+    margin:auto auto;
+    color: rgb(0, 134, 116);
+    
+}
+footer{
+    border-top: solid;
+    border-color: #16696181;
+    border-radius: 50px;
+}
+.btn-outline-primary{
+    background: linear-gradient(270deg, #d4faf6 0%, #bdfdff 100% );
+ color: rgb(0, 134, 116);
+ border-color: rgb(0, 134, 116);;
+}
+.media-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-anim{
+    animation: phoneAnim 2s ease 0s infinite normal none;
+}
+@keyframes phoneAnim {
+	0%,
+	100% {
+		transform: translateX(0%);
+		transform-origin: 50% 50%;
+	}
+
+	15% {
+		transform:  rotate(-6deg);
+	}
+
+	30% {
+		transform:  rotate(6deg);
+	}
+
+	45% {
+		transform:  rotate(-3.6deg);
+	}
+
+	60% {
+		transform:  rotate(2.4deg);
+	}
+
+	75% {
+		transform:  rotate(-1.2deg);
+	}
+}
+
+@media (max-width:764px){
+    .carousel-indicators{
+        display: none;
+    }
+}
+
+
